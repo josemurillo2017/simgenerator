@@ -1,1 +1,46 @@
-ociojoajco
+What If?
+A SimGenerator
+
+Project by:
+Jenny Xu and Jose Murillo
+
+Goal: What If? A SimGenerator is a game that allows players to experience scenarios such as a zombie apocalypse, war and hunger games-esque world. The player fills out a survey that will be used to generate their character. Then the world will be populated with randomly generated characters (created from the following datasets). The simulation will begin and a PDF will be generated documenting the events that occurred in the scenario.
+
+Data: 
+We will be use datasets of answers to personality tests to randomly generate humans that will populate the worlds in our simulation.
+Narcissistic Personality Inventory:
+ Machiavellianism Test
+Consideration of Future Consequences Scale
+Experiences in Close Relationship Scale
+Cattell’s 16 Personality Factors Test
+We plan to combine the data from these five personality tests to create multiple, multi-dimensional individuals that interact with the user’s agent in the game.
+
+Technologies:
+Tkinter/Pygame for GUI
+Simpy for implementing simulations
+Flask for website
+AST
+
+Basic Sketch:
+
+Timeline
+Group’s Task
+Week 4
+Learn Simpy and tkinter|pygame and build every aspect of the GUI.
+Figure out how to extract information from datasets.
+Week 5
+Start developing simulation component; discuss game mechanics for Zombie world
+Week 6
+Build Zombie world; discuss game mechanics for War world.
+Week 7
+Build War world and finish GUI
+Week 8
+Finish constructing any worlds, clean up code
+Week 9
+Prettify GUI, tie up loose ends
+Week 10
+Finish 
+
+
+
+
