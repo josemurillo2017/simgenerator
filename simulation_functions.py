@@ -39,4 +39,4 @@ def sim_world(world):
     for person in world.agents:
         if not person.is_busy():
             simulate_event(world, person)
-        person.busy -= 1
+        person.busy = max(0, person.busy-1)
