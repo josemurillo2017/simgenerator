@@ -43,12 +43,13 @@ class Event(object):
 
 	'''
 
-	def __init__(self, name, description, list_of_traits,condition, activity):
+	def __init__(self, name, description, list_of_traits,condition, activity, time):
 		self.name = name
 		self.description = description
 		self.traits=list_of_traits
 		self.condition = condition
 		self.activity = activity
+		self.time = time
 
 	def will_happen(self,person):
 		if eval(self.condition):
@@ -57,3 +58,4 @@ class Event(object):
 
 	def do(self,person):
 		exec(self.activity)
+		person.busy += time
