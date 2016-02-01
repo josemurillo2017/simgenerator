@@ -1,0 +1,4 @@
+confronted by a zombie,A wild zombie appears!,['Vigilance'],"person.alive",70,"-2*person.traits['Vigilance']","person.tension = True",1
+fighting the zombie,I'm going to kick that zombie's a**,"['Dominance', 'Self-Reliance']","person.tension == True",80," 3*person.traits['Dominance'] + 4*person.traits['Self-Reliance']","person.survive_encounter()",1
+is strolling Away,Just another BEAUTIFUL day for a nice stroll.,"['Reasoning', 'Aprehension', 'Liveliness', 'Vigilance', 'Abstractness', 'Tension']","person.tension",90,"- 2*person.traits['Reasoning'] - person.traits['Aprehension'] + 0.5*person.traits['Liveliness'] - 3*person.traits['Vigilance'] + 5*person.traits['Abstractness'] - 5*person.traits['Tension']","person.survive_encounter(90)",1
+running away from zombie,I'm outta here! AHHHHHH,"['Dominance', 'Aprehension']","person.tension",30,- person.traits['Dominance'] + person.traits['Aprehension'],"person.survive_encounter(30)",2
